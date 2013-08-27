@@ -10,7 +10,7 @@
 PATH="$PATH:/usr/X11R6/bin/"
 
 # The Username:Group that will run VNC
-export USER="video"
+export USER="pi"
 #${RUNAS}
 
 # The display that VNC will use
