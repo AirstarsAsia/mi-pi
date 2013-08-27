@@ -8,7 +8,7 @@
 # Short-Description: VNCserver remotely view your desktop using a VNC client.
 ### END INIT INFO
 
-PATH="$PATH:/usr/X11R6/bin/"
+export PATH="${PATH:+$PATH:}/usr/sbin:/sbin"
 
 # The Username:Group that will run VNC
 export USER="pi"
