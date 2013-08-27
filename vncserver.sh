@@ -3,7 +3,7 @@
 ### BEGIN INIT INFO
 # Provides:          vncserver
 # Required-Start:    networking
-# Default-Start:     S
+# Default-Start:     3 4 5
 # Default-Stop:      0 6
 # Short-Description: VNCserver remotely view your desktop using a VNC client.
 ### END INIT INFO
