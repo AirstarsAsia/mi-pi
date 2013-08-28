@@ -1,4 +1,11 @@
 #!/bin/sh
+
+#  tightvnc.sh
+#  
+#
+#  Created by Peter Mears on 8/28/13.
+#
+#!/bin/sh
 ### BEGIN INIT INFO
 # Provides: tightvncserver
 # Required-Start:
