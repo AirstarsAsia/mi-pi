@@ -1,11 +1,4 @@
 #!/bin/sh
-
-#  tightvnc.sh
-#  
-#
-#  Created by Peter Mears on 8/28/13.
-#
-#!/bin/sh
 ### BEGIN INIT INFO
 # Provides: tightvncserver
 # Required-Start:
@@ -21,7 +14,7 @@
 # Carry out specific functions when asked to by the system
 case "$1" in
 start)
-su root -c 'vncserver :1 -geometry 1280x800 -depth 24'
+su pi -c 'vncserver :1 -geometry 1280x800 -depth 24'
 echo "Starting VNC server "
 ;;
 stop)
